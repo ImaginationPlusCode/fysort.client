@@ -1,18 +1,16 @@
 {
-    "compilerOptions": {
-        "esModuleInterop": true,
-        "jsx": "react",
-        "module": "esnext",
-        "moduleResolution": "node",
-        "lib": [
-        "dom",
-        "esnext"
-        ],
-        "strict": true,
-        "sourceMap": true,
-        "target": "esnext",
-    },
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "esnext",
+    "incremental": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
 }
